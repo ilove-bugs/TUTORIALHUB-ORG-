@@ -1,0 +1,138 @@
+.list .title{
+  font-size: 1.4em;
+text-align: center;
+padding: 10px;
+  border-left: 15px solid rgb(185, 33, 185);
+}
+
+/* // channel name  */
+
+.owner{
+  padding: 5px;
+  font-size: 1.1em;
+
+display: block;
+ letter-spacing: 1px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+
+  gap: 5px;
+
+  
+
+
+}
+.owner::before{
+
+  content: "";
+  display: inline-block;
+  background-image: url("../Thumbnails/youtube.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 35px;
+
+}
+
+/* //link click me  */
+.clickme{
+  font-size: 1.2em;
+  text-decoration: none;
+  margin: 5px;
+
+}
+.clickme:hover{
+  text-decoration: underline;
+  color: blue;
+}
+#thumbnail{
+  width: 400px;
+  max-width: 80%;
+border: 2px solid black;
+align-self: center;
+transition: transform 0.4s ease;
+border-radius: 5px;
+box-shadow: 2px 5px 5px gray;
+ 
+}
+#thumbnail:hover{
+  transform: scale(1.08);
+
+}
+
+#chapters .list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+ 
+
+}
+
+#chapters{
+  display: flex;
+  flex-direction: column;
+gap: 10px;
+
+width: 100%;
+}
+
+/* chapter button desigh */
+
+.subj-btn{
+
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
+  gap: 10px;
+place-content: center;
+  border: 2px solid lightgray;
+padding: 5px;
+border-radius: 5px;
+box-shadow: 2px 9px 10px gray;
+
+  
+}
+.chapbtn{
+  box-sizing: border-box;
+  padding: 8px;
+border: 1px solid lightgray;
+background-color: #FFB8FF;
+border-radius: 5px;
+  font-size: 0.9rem;
+  
+ 
+
+}
+.chapbtn:hover, ch{
+  background-color: #FF5CFF;
+font-weight: 500;
+
+}
+.chapbtn:focus{
+  background-color: #FF5CFF;
+  font-weight: 500;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+gap: 40px;
+font-family: sans-serif;
+
+}
+
+/* main design 
+ */
+
+ main{
+  display: flex;
+  
+  
+ }
+.line{
+  color: lightgray;
+  width: 100%;
+
+}
