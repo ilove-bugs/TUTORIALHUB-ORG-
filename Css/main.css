@@ -8,51 +8,28 @@ body {
 background-color: rgb(39, 37, 37); */
   color: white;
   /* font-family: "Bebas Neue"; */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
+ font-family: sans-serif;
   color: black;
 }
-.main-head {
-  position: absolute;
-  height: 100px;
+
+/* image design 
+ */
+.bgicon{
+
   width: 100%;
-  top: 0px;
-  letter-spacing: 7px;
-  position: relative;
-  color: white;
+  height: 15vh;
+box-shadow: 4px 3px 10px black;
+border-radius: 30px;
+border-bottom: 4px solid purple;
 }
-.main-head img {
-  max-width: 400px;
-  width: 80%;
-}
-.main-head::before{
-  content: "";
-  filter: blur(1.5px);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  inset: 0;
-  z-index: -1;
+ .bgicon img{
+width: 100%;
+max-width: 400px;
+filter: brightness(40%);
 
-  background-image: url("../Thumbnails/FindTutorials-removebg-preview.png");
-  background-size: cover;
 
-   background-position: center;
-    background-repeat: no-repeat;
-      border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    
-}
-.mainname {
-  text-align: center;
-  font-size: 2rem;
+ }
 
-  font-weight: 500;
-}
-.smalltxt {
-  text-align: center;
-  font-size: 12px;
-}
 nav a {
   text-decoration: none;
   padding: 4px;
@@ -77,31 +54,18 @@ nav {
   padding: 5px;
   border-radius: 10px;
   margin: 20px;
+  
 }
-section header {
-  font-size: 2rem;
-  /* padding: 20px; */
-  /* font-family: Arial, Helvetica, sans-serif; */
-}
-
-section header p {
-  font-size: 1.6rem;
-  background-color: red;
-  display: inline-block;
-}
-.msg {
-  font-size: 2rem;
-}
-main p {
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-  border-left: 10px solid rgb(181, 29, 29);
-  padding: 10px;
-}
+/*  */
 .instructions {
+  
   padding: 20px;
   letter-spacing: 1px;
-  border-left: 10px solid #00d100;
+  border-left: 5px solid purple;
+}
+.instructions header{
+
+color: purple;
 }
 /* Scrollbar track */
 ::-webkit-scrollbar {
@@ -127,4 +91,30 @@ main p {
 nav a:hover {
   color: purple;
   box-shadow: 2px 2px 2px black;
+}
+
+.welcome{
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  
+}
+.welcome span{
+  font-size: 6rem;
+  color: purple;
+}
+
+
+
+/* footer and links design  */
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  position:  relative;
+  bottom: 0;
+}
+footer img{
+  width: 24px;
 }

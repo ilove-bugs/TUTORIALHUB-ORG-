@@ -1,22 +1,22 @@
 .list .title{
-  font-size: 1.4em;
+  font-size: 1.2rem;
 text-align: center;
 padding: 10px;
-  border-left: 15px solid rgb(185, 33, 185);
+ color: purple;
 }
 
 /* // channel name  */
 
 .owner{
   padding: 5px;
-  font-size: 1.1em;
+  font-size: 0.9em;
 
 display: block;
  letter-spacing: 1px;
   position: relative;
   display: flex;
   flex-direction: row;
-
+font-weight: 600;
 
   gap: 5px;
 
@@ -31,14 +31,14 @@ display: block;
   background-image: url("../Thumbnails/youtube.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 25px;
+  width: 20px;
   height: 35px;
 
 }
 
 /* //link click me  */
 .clickme{
-  font-size: 1.2em;
+  font-size: 1em;
   text-decoration: none;
   margin: 5px;
 
@@ -77,6 +77,7 @@ box-shadow: 2px 5px 5px gray;
 gap: 10px;
 
 width: 100%;
+flex: 2;
 }
 
 /* chapter button desigh */
@@ -89,24 +90,26 @@ width: 100%;
 place-content: center;
   border: 2px solid lightgray;
 padding: 5px;
+width: 90%;
 border-radius: 5px;
 box-shadow: 2px 9px 10px gray;
-
+margin: auto;
   
 }
 .chapbtn{
   box-sizing: border-box;
   padding: 8px;
-border: 1px solid lightgray;
-background-color: #FFB8FF;
+border: 1px solid black;
+letter-spacing: 1px;
 border-radius: 5px;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
+  background-color: white;
   
  
 
 }
 .chapbtn:hover, ch{
-  background-color: #FF5CFF;
+  background-color: #c885c8;
 font-weight: 500;
 
 }
@@ -118,21 +121,59 @@ font-weight: 500;
 body{
   display: flex;
   flex-direction: column;
-gap: 40px;
+gap: 20px;
 font-family: sans-serif;
 
 }
-
+*{
+  padding: 0;
+  margin: 0;
+}
 /* main design 
  */
 
  main{
   display: flex;
-  
-  
+  flex-direction: row;
+  justify-content: space-between;
+gap: 10px;
  }
 .line{
   color: lightgray;
-  width: 100%;
+  width: 80%;
 
+}
+.formula{
+  flex: 1;
+
+  border-left: 2px solid gray;
+  padding: 30px;
+  
+}
+
+/* formula head design 
+ */
+
+ .formula-head{
+  font-size: 18px;
+ }
+ /* choose the chapter design  */
+.select{
+font-size: 1.2em;
+letter-spacing: 2px;
+padding: 5px;
+color: purple;
+}
+
+
+/* nav design  */
+
+#home ul{
+  list-style: none;
+  position: relative;
+  top: 0;
+  padding: 5px;
+}
+#home ul img{
+  width: 30px;
 }
