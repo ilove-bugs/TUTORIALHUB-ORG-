@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
   margin: 0;
   position: relative;
   /* padding: 0;
@@ -18,13 +18,13 @@ background-color: rgb(39, 37, 37); */
 
   width: 100%;
   height: 15vh;
-box-shadow: 4px 3px 10px black;
+box-shadow: 3px 3px 5px purple;
 border-radius: 30px;
-border-bottom: 4px solid purple;
+
 }
  .bgicon img{
-width: 100%;
-max-width: 400px;
+width: 80%;
+max-width: 350px;
 filter: brightness(40%);
 
 
@@ -69,7 +69,7 @@ color: purple;
 }
 /* Scrollbar track */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 5px;
   height: 12px;
 }
 
@@ -108,6 +108,7 @@ nav a:hover {
 
 /* footer and links design  */
 footer{
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -117,4 +118,9 @@ footer{
 }
 footer img{
   width: 24px;
+}
+@media(max-width: 768px){
+  .bgicon{
+    height: 13vh;
+  }
 }
