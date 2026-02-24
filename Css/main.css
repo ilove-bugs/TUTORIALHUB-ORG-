@@ -20,12 +20,14 @@ background-color: rgb(39, 37, 37); */
   height: 15vh;
 box-shadow: 3px 3px 5px purple;
 border-radius: 30px;
-
+display: flex;
+justify-content: start;
+align-items: center;
 }
  .bgicon img{
-width: 80%;
-max-width: 350px;
-filter: brightness(40%);
+width: 50%;
+max-width: 300px;
+filter: brightness(5%)
 
 
  }
@@ -58,7 +60,7 @@ nav {
 }
 /*  */
 .instructions {
-  
+  line-height: 35px;
   padding: 20px;
   letter-spacing: 1px;
   border-left: 5px solid purple;
@@ -67,27 +69,7 @@ nav {
 
 color: purple;
 }
-/* Scrollbar track */
-::-webkit-scrollbar {
-  width: 5px;
-  height: 12px;
-}
 
-::-webkit-scrollbar-track {
-  background: #f0f0f0;
-}
-
-/* Scrollbar thumb */
-::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 6px;
-}
-
-/* Scrollbar buttons */
-::-webkit-scrollbar-button {
-  background-color: #555;
-  border-radius: 3px;
-}
 nav a:hover {
   color: purple;
   box-shadow: 2px 2px 2px black;
@@ -108,10 +90,12 @@ nav a:hover {
 
 /* footer and links design  */
 footer{
-
+border-top: 1px solid gray;
   display: flex;
   flex-direction: row;
   justify-content: center;
+height: 40px;
+align-items: last baseline;
   gap: 15px;
   position:  relative;
   bottom: 0;

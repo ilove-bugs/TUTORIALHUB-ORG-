@@ -114,8 +114,9 @@ font-weight: 500;
 
 }
 .chapbtn:focus{
-  background-color: #FF5CFF;
+  background-color: #800080;
   font-weight: 500;
+  color: white;
 }
 
 body{

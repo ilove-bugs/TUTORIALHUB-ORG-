@@ -1,6 +1,10 @@
 //array of calculus
 
-var calculus = {
+var meta= document.body.dataset.content;
+
+
+var subj={
+  math:{
   Derivative:[
     {
       id: 1,
@@ -71,8 +75,9 @@ owner:"Goal X",
 
   //   }
   // ],
-};
+},
 
+}
 // let getvdo= (n)=>{
 //   calculus[n].forEach(v=>{
 //     console.log(v.)
@@ -86,7 +91,7 @@ let chapters= document.getElementById("chapters")
 var sbtn= document.querySelector(".subj-btn");
 
 let getdata=(chapname)=>{
-calculus[chapname].forEach((el)=>{
+subj[meta][chapname].forEach((el)=>{
   // console.log(Object.values(el))
 
 
@@ -119,4 +124,3 @@ sbtn.addEventListener("click",(e)=>{
   getdata(e.target.innerText)
  }
 })
-
