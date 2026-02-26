@@ -1,8 +1,11 @@
 .list .title{
   font-size: 1.2rem;
 text-align: center;
-padding: 10px;
- color: purple;
+padding: 8px;
+background-color: purple;
+color: white;
+width: 80%;
+margin: auto;
 }
 
 /* // channel name  */
@@ -39,17 +42,20 @@ font-weight: 600;
 /* //link click me  */
 .clickme{
   font-size: 1em;
-  text-decoration: none;
+text-decoration: none;
   margin: 5px;
+display: block;
+ 
 
 }
+
 .clickme:hover{
   text-decoration: underline;
   color: blue;
 }
 #thumbnail{
-  width: 400px;
-  max-width: 80%;
+  width: 350px;
+  max-width: 70%;
 border: 2px solid black;
 align-self: center;
 transition: transform 0.4s ease;
@@ -109,8 +115,9 @@ border-radius: 5px;
 
 }
 .chapbtn:hover, ch{
-  background-color: #c885c8;
+  background-color:  #A934BD;
 font-weight: 500;
+color: white;
 
 }
 .chapbtn:focus{
@@ -124,9 +131,9 @@ body{
   flex-direction: column;
 gap: 20px;
 font-family: sans-serif;
-
 }
 *{
+
   padding: 0;
   margin: 0;
 }
@@ -142,6 +149,7 @@ gap: 10px;
 .line{
   color: lightgray;
   width: 80%;
+  align-self: center;
 
 }
 .formula{
@@ -157,6 +165,10 @@ gap: 10px;
 
  .formula-head{
   font-size: 18px;
+  padding: 4px;
+  background-color: purple;
+  color: white;
+  text-align: center;
  }
  /* choose the chapter design  */
 .select{
@@ -174,6 +186,7 @@ color: purple;
   position: relative;
   top: 0;
   padding: 5px;
+
 }
 #home ul img{
   width: 20px;
