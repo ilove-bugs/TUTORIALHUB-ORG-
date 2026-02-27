@@ -1,18 +1,20 @@
 .list .title{
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 text-align: center;
-padding: 8px;
+padding: 5px;
 background-color: purple;
 color: white;
-width: 80%;
+width: 70%;
 margin: auto;
+letter-spacing: 1px;
+font-weight: 600;
 }
 
 /* // channel name  */
 
 .owner{
   padding: 5px;
-  font-size: 0.9em;
+  font-size: 0.8em;
 
 display: block;
  letter-spacing: 1px;
@@ -41,7 +43,7 @@ font-weight: 600;
 
 /* //link click me  */
 .clickme{
-  font-size: 1em;
+  font-size: 1.1em;
 text-decoration: none;
   margin: 5px;
 display: block;
@@ -55,12 +57,12 @@ display: block;
 }
 #thumbnail{
   width: 350px;
-  max-width: 70%;
-border: 2px solid black;
+  max-width: 60%;
+
 align-self: center;
 transition: transform 0.4s ease;
-border-radius: 5px;
-box-shadow: 2px 5px 5px gray;
+border-radius: 10px;
+box-shadow: 2px 8px 10px gray;
  
 }
 #thumbnail:hover{
@@ -71,7 +73,7 @@ box-shadow: 2px 5px 5px gray;
 #chapters .list{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+
 
  
 
@@ -88,29 +90,29 @@ flex: 3;
 
 /* chapter button desigh */
 
-.subj-btn{
-
-    display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
+.subj-btn {
+  display: grid;
+  /* '1fr' ensures columns expand/contract to fill space equally */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
   gap: 10px;
-place-content: center;
+  place-content: center;
   border: 2px solid lightgray;
-padding: 10px;
-width: 90%;
-border-radius: 5px;
-box-shadow: 2px 9px 10px gray;
-margin: auto;
-  
+  padding: 10px; /* Increased padding for better internal spacing */
+  width: 90%;    /* Use more of the screen width */
+  border-radius: 5px;
+  box-shadow: 2px 9px 10px gray;
+  margin: auto;
 }
 .chapbtn{
   box-sizing: border-box;
-  padding: 6px;
+  padding: 5px;
 border: 1px solid black;
 letter-spacing: 0.5px;
 border-radius: 5px;
   font-size: 0.7rem;
   background-color: white;
-  
+
+  width: 100%;
  
 
 }
@@ -129,7 +131,7 @@ color: white;
 body{
   display: flex;
   flex-direction: column;
-gap: 20px;
+gap: 10px;
 font-family: sans-serif;
 }
 *{
@@ -142,9 +144,9 @@ font-family: sans-serif;
 
  main{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-gap: 10px;
+gap: 0px;
  }
 .line{
   color: lightgray;
