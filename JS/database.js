@@ -159,10 +159,15 @@ let getdata = (chapname) => {
     <header class="owner">${el.owner}</header>
     <img src="${getimg(el.link)}" alt="${el.title} "id="thumbnail">
     <a href="${el.link}" class="clickme">Click me!</a>
-<hr class= "line"> 
+    <hr class= "line"> 
+
+    `;
+    let bg= document.createElement("div")
+    bg.setAttribute("id", "bg")
+    bg.style.backgroundImage=`url("${getimg(el.link)}")`
   
-  `;
     chapters.appendChild(li);
+    li.appendChild(bg)
   });
 };
 
@@ -175,3 +180,4 @@ sbtn.addEventListener("click", (e) => {
     getdata(e.target.innerText);
   }
 });
+

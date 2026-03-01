@@ -75,7 +75,7 @@ box-shadow: 2px 8px 10px gray;
   flex-direction: column;
 
 
- 
+
 
 }
 
@@ -149,7 +149,7 @@ font-family: sans-serif;
 gap: 0px;
  }
 .line{
-  color: lightgray;
+  color: black;
   width: 80%;
   align-self: center;
 
@@ -192,4 +192,15 @@ color: purple;
 }
 #home ul img{
   width: 20px;
+}
+
+#bg{
+position: absolute;
+  align-self: center;
+  width: 90%;
+  height: 30%;
+  border: 2px solid red;
+z-index: -1;
+filter: blur(25px);
+
 }
