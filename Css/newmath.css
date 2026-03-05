@@ -8,12 +8,13 @@ width: 70%;
 margin: auto;
 letter-spacing: 1px;
 font-weight: 600;
+border-radius: 10px;
 }
 
 /* // channel name  */
 
 .owner{
-  padding: 5px;
+  padding: 8px;
   font-size: 0.8em;
 
 display: block;
@@ -37,7 +38,7 @@ font-weight: 600;
   background-size: contain;
   background-repeat: no-repeat;
   width: 20px;
-  height: 35px;
+  height: 20px;
 
 }
 
@@ -56,7 +57,7 @@ display: block;
   color: blue;
 }
 #thumbnail{
-  width: 350px;
+  width: 450px;
   max-width: 60%;
 
 align-self: center;
@@ -171,6 +172,7 @@ gap: 0px;
   background-color: purple;
   color: white;
   text-align: center;
+  border-radius: 10px;
  }
  /* choose the chapter design  */
 .select{
@@ -194,13 +196,4 @@ color: purple;
   width: 20px;
 }
 
-#bg{
-position: absolute;
-  align-self: center;
-  width: 90%;
-  height: 30%;
-  border: 2px solid red;
-z-index: -1;
-filter: blur(25px);
 
-}

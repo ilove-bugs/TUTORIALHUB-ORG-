@@ -54,7 +54,7 @@ nav {
 
   overflow: auto;
   position: sticky;
-top: 0;
+  top: 0;
   /* background-color: #0d1117; */
   padding: 5px;
   border-radius: 10px;

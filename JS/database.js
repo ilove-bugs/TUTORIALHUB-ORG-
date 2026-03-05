@@ -113,6 +113,46 @@ var subj = {
         owner: "Nepal Education YT", 
         link: "https://youtu.be/gePig3mVuTk"
       }
+    ],
+    Circle:[
+      {
+ title:"Circle 8.1(Concept, More on playlist )",
+ owner:"Goal X",
+  link:"https://youtu.be/PRYizGEqjyg"
+
+
+      },
+
+      {
+
+ title:"Circle(Concepts+One Shot)",
+ owner:"Nepal Educatiob Yt",
+  link:"https://youtu.be/30XCbEOyyrc"
+
+
+      },
+  
+    ],
+    Correlation_Regression:[
+{
+  title:"Correlation&Regression- 5marks ques",
+owner:"Goal X",
+ link:"https://youtu.be/16lj-sQXw2c"
+
+},
+
+{
+title:"Correlation&Regression(one shot+Calculator trick)",
+owner:"Nepal Educatiob Yt",
+ link:"https://youtu.be/0kkpuzWEvFw"
+
+},
+{
+title:"Correlation&Regression-Concept & Formulas",
+owner:"Guruba",
+ link:"https://youtu.be/9w9j8H_zRcY"
+}
+
     ]
 
     // lhospital=[
@@ -162,12 +202,9 @@ let getdata = (chapname) => {
     <hr class= "line"> 
 
     `;
-    let bg= document.createElement("div")
-    bg.setAttribute("id", "bg")
-    bg.style.backgroundImage=`url("${getimg(el.link)}")`
-  
+ 
     chapters.appendChild(li);
-    li.appendChild(bg)
+
   });
 };
 
