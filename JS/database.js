@@ -151,8 +151,16 @@ owner:"Nepal Educatiob Yt",
 title:"Correlation&Regression-Concept & Formulas",
 owner:"Guruba",
  link:"https://youtu.be/9w9j8H_zRcY"
-}
+},
 
+
+    ],
+    Parabola:[
+      {
+        title: "Parabola-Latest tutorial",
+        owner: "GoalX",
+        link: "https://youtu.be/4dinU7n_Bzo"
+      }
     ]
 
     // lhospital=[
@@ -161,6 +169,34 @@ owner:"Guruba",
     //   }
     // ],
   },
+  Computer:{
+    FileHandling:[
+      {
+        title: "File handling-C(Basics)",
+        owner: "Readers Nepal",
+        link: "https://youtu.be/n5XP5uYyNCQ"
+      }
+    ],
+    Structures:[
+      {
+        title:"Structures in 4 minutes",
+        owner:"Brocode",
+        link: "https://youtu.be/oKXP1HZ8xIs"
+      },
+      {
+        title: "Structure- 8 marks question",
+        owner: "Readers Nepal",
+        link: "https://youtu.be/XKU53TKM65g"
+      }
+    ],
+    Pointer:[
+      {
+        title:"Pointers in c with program examples",
+        owner: "Readers Nepal",
+        link: "https://youtu.be/E6AT_UqwBe4"
+      }
+    ]
+  }
 };
 // let getvdo= (n)=>{
 //   calculus[n].forEach(v=>{

@@ -1,7 +1,7 @@
 .list .title{
   font-size: 0.9rem;
 text-align: center;
-padding: 5px;
+padding: 9px;
 background-color: purple;
 color: white;
 width: 70%;
@@ -97,7 +97,7 @@ flex: 3;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
   gap: 10px;
   place-content: center;
-  border: 2px solid lightgray;
+  border: 1px solid  ;
   padding: 10px; /* Increased padding for better internal spacing */
   width: 90%;    /* Use more of the screen width */
   border-radius: 5px;
@@ -107,7 +107,7 @@ flex: 3;
 .chapbtn{
   box-sizing: border-box;
   padding: 5px;
-border: 1px solid black;
+border: 1px solid grey;
 letter-spacing: 0.5px;
 border-radius: 5px;
   font-size: 0.7rem;
@@ -157,7 +157,7 @@ gap: 0px;
 }
 .formula{
   flex: 1;
-
+visibility: hidden;
   border-left: 2px solid gray;
   padding: 25px;
   font-size: 0.9em;
