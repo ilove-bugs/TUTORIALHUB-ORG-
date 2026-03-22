@@ -10,7 +10,6 @@ var subj = {
         title: "Derivative of Hyperbolic functions",
         owner: "GoalX",
         link: "https://www.youtube.com/watch?v=LkKJSfxRec8&t=1s",
-        img: "DerivativeH1.jpg",
       },
 
       {
@@ -18,7 +17,6 @@ var subj = {
         title: "Derivative of Hyperbolic Functions",
         owner: "SBG MATH",
         link: " https://youtu.be/XpuFAwmRl4M?si=jIZ7E8nEmChgkvC-",
-        img: "DerivativeH2.jpg",
       },
     ],
 
@@ -28,14 +26,12 @@ var subj = {
         title: "Nepali Education YT's tutorial",
         owner: "Nepali Education YT",
         link: "https://youtu.be/6SDUB-SyO3I?si=TiIhoOLJIKsB_boj&t=1902s",
-        img: "tangent2.jpg",
       },
       {
         id: 4,
         title: "Nepal Online Schools's tutorial(Detailed)",
         owner: "NepaL Online School",
         link: "https://www.youtube.com/live/Fg6XuVRWNzU?si=OcWQeXp4XxNuU-4P",
-        img: "tangent3.jpg",
       },
     ],
     RateMeasure: [
@@ -43,25 +39,21 @@ var subj = {
         title: "Application of Derivative",
         owner: "Math Guru Shashi",
         link: "https://youtu.be/-2LygdBEcoI",
-        img: "RM1.jpeg",
       },
       {
         title: "Rate Measure(one shot)",
         owner: "",
         link: "https://youtu.be/U2kFS6KcqdA",
-        img: "rm2.jpeg",
       },
       {
         title: "Rate Measure-part-1",
         owner: "Goal X",
         link: "https://youtu.be/Ft_Yb3BvZKE",
-        img: "rm3.jpeg",
       },
       {
         title: "Rate Measure-part-2",
         owner: "Goal X",
         link: "https://youtu.be/5GKYEFe-V88",
-        img: "rm4.jpeg",
       },
     ],
     Antiderivative: [
@@ -69,99 +61,90 @@ var subj = {
         title: "Anti-Derivative(Ex 14.1)",
         owner: "SBG math",
         link: "https://youtu.be/7FrGgsN_rkk",
-
-        img: "1847618340053836317.jpeg",
       },
       {
         title: "Integration(One Shot)",
         owner: "",
         link: "https://youtu.be/q3ZTXiPX2eM",
-
-        img: "i2.jpeg",
       },
       {
         title: "Anti-Derivative(combinbed)",
         owner: "GoalX",
         link: "https://youtu.be/Cphnfruzex4",
-
-        img: "i3.jpeg",
       },
     ],
-    Vectors:[
+    Vectors: [
       {
- title: "Vectors, Scalar Product(Basics)",
- owner:"Goal X",
-  link:"https://youtu.be/lB7XpHIu7Fw?si=jlOuk7jNMXDSjIQr"
+        title: "Vectors, Scalar Product(Basics)",
+        owner: "Goal X",
+        link: "https://youtu.be/lB7XpHIu7Fw?si=jlOuk7jNMXDSjIQr",
       },
       {
- title:"Scalar Product(Basics)",
- owner:"",
-  link:"https://youtu.be/NdHfMqBx7Dc?si=QZWF6WYPhB4i-Wqo"
+        title: "Scalar Product(Basics)",
+        owner: "",
+        link: "https://youtu.be/NdHfMqBx7Dc?si=QZWF6WYPhB4i-Wqo",
       },
       {
- title:"Scalar Product, part-1",
- owner:"SBG Math",
-  link:"https://youtu.be/hWArmCRRMcE"
+        title: "Scalar Product, part-1",
+        owner: "SBG Math",
+        link: "https://youtu.be/hWArmCRRMcE",
       },
       {
- title:"Proved Questions,Ex. 9.1",
- owner:"Goal X",
-  link:"https://youtu.be/XGcyqne_g1o"
+        title: "Proved Questions,Ex. 9.1",
+        owner: "Goal X",
+        link: "https://youtu.be/XGcyqne_g1o",
       },
       {
         title: "Prove questions(Setbook)(One Shot)",
-        owner: "Nepal Education YT", 
-        link: "https://youtu.be/gePig3mVuTk"
-      }
+        owner: "Nepal Education YT",
+        link: "https://youtu.be/gePig3mVuTk",
+      },
     ],
-    Circle:[
+    Circle: [
       {
- title:"Circle 8.1(Concept, More on playlist )",
- owner:"Goal X",
-  link:"https://youtu.be/PRYizGEqjyg"
-
-
+        title: "Circle 8.1(Concept+All Questions on playlist )",
+        owner: "Goal X",
+        link: "https://youtu.be/PRYizGEqjyg",
       },
 
       {
-
- title:"Circle(Concepts+One Shot)",
- owner:"Nepal Educatiob Yt",
-  link:"https://youtu.be/30XCbEOyyrc"
-
-
+        title: "Circle(Concepts+One Shot)",
+        owner: "Nepal Education Yt",
+        link: "https://youtu.be/30XCbEOyyrc",
       },
-  
     ],
-    Correlation_Regression:[
-{
-  title:"Correlation&Regression- 5marks ques",
-owner:"Goal X",
- link:"https://youtu.be/16lj-sQXw2c"
+    Correlation_Regression: [
+      {
+        title: "Correlation&Regression- 5marks ques",
+        owner: "Goal X",
+        link: "https://youtu.be/16lj-sQXw2c",
+      },
 
-},
-
-{
-title:"Correlation&Regression(one shot+Calculator trick)",
-owner:"Nepal Educatiob Yt",
- link:"https://youtu.be/0kkpuzWEvFw"
-
-},
-{
-title:"Correlation&Regression-Concept & Formulas",
-owner:"Guruba",
- link:"https://youtu.be/9w9j8H_zRcY"
-},
-
-
+      {
+        title: "Correlation&Regression(one shot+Calculator trick)",
+        owner: "Nepal Educatiob Yt",
+        link: "https://youtu.be/0kkpuzWEvFw",
+      },
+      {
+        title: "Correlation&Regression-Concept & Formulas",
+        owner: "Guruba",
+        link: "https://youtu.be/9w9j8H_zRcY",
+      },
     ],
-    Parabola:[
+    Parabola: [
       {
         title: "Parabola-Latest tutorial",
         owner: "GoalX",
-        link: "https://youtu.be/4dinU7n_Bzo"
-      }
-    ]
+        link: "https://youtu.be/4dinU7n_Bzo",
+      },
+    ],
+    DifferentialEquation: [
+      {
+        title: "Differential Equations(All types)",
+        owner: "GoalX",
+        link: "https://youtu.be/qp-69Ink5jk",
+      },
+    ],
 
     // lhospital=[
     //   {
@@ -169,34 +152,34 @@ owner:"Guruba",
     //   }
     // ],
   },
-  Computer:{
-    FileHandling:[
+  Computer: {
+    FileHandling: [
       {
         title: "File handling-C(Basics)",
         owner: "Readers Nepal",
-        link: "https://youtu.be/n5XP5uYyNCQ"
-      }
+        link: "https://youtu.be/n5XP5uYyNCQ",
+      },
     ],
-    Structures:[
+    Structures: [
       {
-        title:"Structures in 4 minutes",
-        owner:"Brocode",
-        link: "https://youtu.be/oKXP1HZ8xIs"
+        title: "Structures in 4 minutes",
+        owner: "Brocode",
+        link: "https://youtu.be/oKXP1HZ8xIs",
       },
       {
         title: "Structure- 8 marks question",
         owner: "Readers Nepal",
-        link: "https://youtu.be/XKU53TKM65g"
-      }
+        link: "https://youtu.be/XKU53TKM65g",
+      },
     ],
-    Pointer:[
+    Pointer: [
       {
-        title:"Pointers in c with program examples",
+        title: "Pointers in c with program examples",
         owner: "Readers Nepal",
-        link: "https://youtu.be/E6AT_UqwBe4"
-      }
-    ]
-  }
+        link: "https://youtu.be/E6AT_UqwBe4",
+      },
+    ],
+  },
 };
 // let getvdo= (n)=>{
 //   calculus[n].forEach(v=>{
@@ -214,17 +197,16 @@ let getdata = (chapname) => {
     // console.log(Object.values(el))
 
     function getimg(url) {
-       const regex =
-    /(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
+      const regex =
+        /(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
 
-  const match = url.match(regex);
+      const match = url.match(regex);
 
-  if (!match) return "";
+      if (!match) return "";
 
-  const videoId = match[1];
+      const videoId = match[1];
 
-  return `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
-
+      return `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
     }
     let li;
     li = document.createElement("li");
@@ -238,9 +220,8 @@ let getdata = (chapname) => {
     <hr class= "line"> 
 
     `;
- 
-    chapters.appendChild(li);
 
+    chapters.appendChild(li);
   });
 };
 
@@ -253,4 +234,3 @@ sbtn.addEventListener("click", (e) => {
     getdata(e.target.innerText);
   }
 });
-

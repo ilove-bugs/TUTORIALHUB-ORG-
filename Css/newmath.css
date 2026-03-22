@@ -47,7 +47,7 @@ width: fit-content;
 .clickme{
   font-size: 1.1em;
 text-decoration: none;
-  margin: 5px;
+  margin: 10px;
 display: block;
 
 }
@@ -57,8 +57,8 @@ display: block;
   color: blue;
 }
 #thumbnail{
-  width: 450px;
-  max-width: 65%;
+  width: 400px;
+  max-width: 55%;
 
 align-self: center;
 transition: transform 0.4s ease;
