@@ -234,7 +234,7 @@ let getdata = (chapname) => {
       <header class="title">${el.title}</header>
     <header class="owner">${el.owner}</header>
     <img src="${getimg(el.link)}" alt="${el.title} "id="thumbnail">
-    <a href="${el.link}" class="clickme">Click me!</a>
+    <a href="${el.link}" class="clickme">Click to watch!</a>
     <hr class= "line"> 
 
     `;

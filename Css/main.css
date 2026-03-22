@@ -28,7 +28,7 @@ justify-content: start;
 align-items: center;
 }
  .bgicon #bggg{
-width: 50%;
+width: 40%;
 max-width: 300px;
 filter: brightness(5%)
 
@@ -106,7 +106,7 @@ align-items: last baseline;
 
 }
 footer img{
-  width: 24px;
+  width: 27px;
 }
 @media(max-width: 768px){
   .bgicon{

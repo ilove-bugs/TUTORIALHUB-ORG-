@@ -1,32 +1,33 @@
 .list .title{
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 text-align: center;
-padding: 9px;
-background-color: purple;
+padding: 7px;
+background-color:#800080;
 color: white;
 width: 70%;
+max-width: 400px;
 margin: auto;
 letter-spacing: 1px;
 font-weight: 600;
-border-radius: 10px;
+border-radius: 2px;
+text-transform: uppercase;
 }
 
 /* // channel name  */
 
 .owner{
-  padding: 8px;
-  font-size: 0.8em;
+ 
+  font-size: 0.9em;
+padding: 8px;
 
-display: block;
- letter-spacing: 1px;
   position: relative;
   display: flex;
   flex-direction: row;
 font-weight: 600;
+width: fit-content;
+  gap: 3px;
 
-  gap: 5px;
-
-  
+ 
 
 
 }
@@ -37,8 +38,8 @@ font-weight: 600;
   background-image: url("../Thumbnails/youtube.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+
 
 }
 
@@ -48,7 +49,6 @@ font-weight: 600;
 text-decoration: none;
   margin: 5px;
 display: block;
- 
 
 }
 
@@ -58,12 +58,12 @@ display: block;
 }
 #thumbnail{
   width: 450px;
-  max-width: 60%;
+  max-width: 65%;
 
 align-self: center;
 transition: transform 0.4s ease;
-border-radius: 10px;
-box-shadow: 2px 8px 10px gray;
+border-radius: 4px;
+
  
 }
 #thumbnail:hover{
@@ -83,7 +83,7 @@ box-shadow: 2px 8px 10px gray;
 #chapters{
   display: flex;
   flex-direction: column;
-gap: 10px;
+gap: 30px;
 
 width: 100%;
 flex: 3;
@@ -95,7 +95,7 @@ flex: 3;
   display: grid;
   /* '1fr' ensures columns expand/contract to fill space equally */
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
-  gap: 10px;
+  gap: 9px;
   place-content: center;
   border: 1px solid  ;
   padding: 10px; /* Increased padding for better internal spacing */
@@ -106,25 +106,28 @@ flex: 3;
 }
 .chapbtn{
   box-sizing: border-box;
-  padding: 5px;
-border: 1px solid grey;
+  padding: 4px;
+border: 1px solid gray;
 letter-spacing: 0.5px;
 border-radius: 5px;
   font-size: 0.7rem;
   background-color: white;
 
-  width: 100%;
+white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
  
 
 }
 .chapbtn:hover, ch{
-  background-color:  #A934BD;
+  background-color:  #800080;
 font-weight: 500;
 color: white;
 
 }
 .chapbtn:focus{
-  background-color: #800080;
+  background-color: #470047 ;
   font-weight: 500;
   color: white;
 }
@@ -180,6 +183,7 @@ font-size: 1.2em;
 letter-spacing: 2px;
 padding: 5px;
 color: purple;
+font-style: italic;
 }
 
 
