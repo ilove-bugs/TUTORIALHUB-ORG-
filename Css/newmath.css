@@ -179,11 +179,28 @@ visibility: hidden;
  }
  /* choose the chapter design  */
 .select{
+  width: 24ch;
+    overflow: hidden;
+    white-space: nowrap;
 font-size: 1.2em;
-letter-spacing: 2px;
-padding: 5px;
+  letter-spacing: .15em;
+
 color: purple;
+   border-right: .15em solid orange;
+
 font-style: italic;
+animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 24ch }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
 }
 
 
@@ -201,3 +218,10 @@ font-style: italic;
 }
 
 
+.pdf{
+  color: red;
+  font-size: 1.3rem;
+  text-align: center;
+
+ 
+}

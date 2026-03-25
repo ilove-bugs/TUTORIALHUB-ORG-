@@ -145,6 +145,15 @@ var subj = {
         link: "https://youtu.be/qp-69Ink5jk",
       },
     ],
+    GaussSiedel:[
+      {
+        pdf: "Thumbnails/Gauss-Sidel.pdf",
+        title: "Gauss-Seidel, From basics",
+        owner:"Nepali Education Yt",
+        link: "https://youtu.be/nX1R6W2izYc"
+
+      }
+    ]
 
     // lhospital=[
     //   {
@@ -217,6 +226,7 @@ let getdata = (chapname) => {
     <header class="owner">${el.owner}</header>
     <img src="${getimg(el.link)}" alt="${el.title} "id="thumbnail">
     <a href="${el.link}" class="clickme">Click to watch!</a>
+    <a href="${el.pdf}" class="pdf">PDF</a>
     <hr class= "line"> 
 
     `;
