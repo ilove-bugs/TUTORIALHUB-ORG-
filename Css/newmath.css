@@ -84,7 +84,7 @@ border-radius: 4px;
   display: flex;
   flex-direction: column;
 gap: 30px;
-
+height: 100%;
 width: 100%;
 flex: 3;
 }
@@ -219,9 +219,8 @@ animation:
 
 
 .pdf{
-  color: red;
-  font-size: 1.3rem;
-  text-align: center;
-
+width: 90%;
+height: 500px;
+margin: auto;
  
 }

@@ -147,7 +147,7 @@ var subj = {
     ],
     GaussSiedel:[
       {
-        pdf: "Thumbnails/Gauss-Sidel.pdf",
+        pdf: "PDF/Gauss-Sidel.pdf",
         title: "Gauss-Seidel, From basics",
         owner:"Nepali Education Yt",
         link: "https://youtu.be/nX1R6W2izYc"
@@ -202,6 +202,7 @@ let chapters = document.getElementById("chapters");
 var sbtn = document.querySelector(".subj-btn");
 
 let getdata = (chapname) => {
+
   subj[meta][chapname].forEach((el) => {
     // console.log(Object.values(el))
 
@@ -221,12 +222,25 @@ let getdata = (chapname) => {
     li = document.createElement("li");
     li.setAttribute("class", "list");
 
-    li.innerHTML = `
+if(el.pdf){
+     chapters.innerHTML=`
+<iframe src="${el.pdf}" class="pdf"">
+ 
+</iframe>
+`
+}
+else{
+     chapters.innerHTML=`
+ 
+     `
+}
+  li.innerHTML = `
+
       <header class="title">${el.title}</header>
     <header class="owner">${el.owner}</header>
     <img src="${getimg(el.link)}" alt="${el.title} "id="thumbnail">
     <a href="${el.link}" class="clickme">Click to watch!</a>
-    <a href="${el.pdf}" class="pdf">PDF</a>
+
     <hr class= "line"> 
 
     `;
