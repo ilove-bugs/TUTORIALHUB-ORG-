@@ -230,9 +230,7 @@ if(el.pdf){
 `
 }
 else{
-     chapters.innerHTML=`
- 
-     `
+    
 }
   li.innerHTML = `
 
