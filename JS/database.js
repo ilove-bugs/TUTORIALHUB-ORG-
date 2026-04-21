@@ -145,15 +145,21 @@ var subj = {
         link: "https://youtu.be/qp-69Ink5jk",
       },
     ],
-    GaussSiedel:[
+    GaussSiedel: [
       {
         pdf: "PDF/Gauss-Sidel.pdf",
         title: "Gauss-Seidel, From basics",
-        owner:"Nepali Education Yt",
-        link: "https://youtu.be/nX1R6W2izYc"
-
-      }
-    ]
+        owner: "Nepali Education Yt",
+        link: "https://youtu.be/nX1R6W2izYc",
+      },
+    ],
+      Ellipse:[
+        {
+ title: "Ellipse from basics",
+ owner: "GoalX",
+  link:"https://www.youtube.com/watch?v=SQMbmD0G0gw"
+        }
+      ]
 
     // lhospital=[
     //   {
@@ -202,7 +208,6 @@ let chapters = document.getElementById("chapters");
 var sbtn = document.querySelector(".subj-btn");
 
 let getdata = (chapname) => {
-
   subj[meta][chapname].forEach((el) => {
     // console.log(Object.values(el))
 
@@ -222,17 +227,15 @@ let getdata = (chapname) => {
     li = document.createElement("li");
     li.setAttribute("class", "list");
 
-if(el.pdf){
-     chapters.innerHTML=`
+    if (el.pdf) {
+      chapters.innerHTML = `
 <iframe src="${el.pdf}" class="pdf"">
  
 </iframe>
-`
-}
-else{
-    
-}
-  li.innerHTML = `
+`;
+    } else {
+    }
+    li.innerHTML = `
 
       <header class="title">${el.title}</header>
     <header class="owner">${el.owner}</header>
@@ -256,3 +259,4 @@ sbtn.addEventListener("click", (e) => {
     getdata(e.target.innerText);
   }
 });
+console.log(Object.keys(subj[1]).length);
