@@ -153,13 +153,13 @@ var subj = {
         link: "https://youtu.be/nX1R6W2izYc",
       },
     ],
-      Ellipse:[
-        {
- title: "Ellipse from basics",
- owner: "GoalX",
-  link:"https://www.youtube.com/watch?v=SQMbmD0G0gw"
-        }
-      ]
+    Ellipse: [
+      {
+        title: "Ellipse from basics",
+        owner: "GoalX",
+        link: "https://www.youtube.com/watch?v=SQMbmD0G0gw",
+      },
+    ],
 
     // lhospital=[
     //   {
@@ -192,6 +192,35 @@ var subj = {
         title: "Pointers in c with program examples",
         owner: "Readers Nepal",
         link: "https://youtu.be/E6AT_UqwBe4",
+      },
+    ],
+  },
+  Accounting: {
+    Shares: [
+      {
+        title: "Accounting for shares(One shot, exam ready)",
+        owner: "Learnwithsadhananp",
+        link: "https://youtu.be/GfUuDBqzkyY",
+      },
+      {
+        title: "Share part-1 (More on playlist..)",
+        owner: "Hari Acharya",
+        link: "https://youtu.be/rCPoqkXVkTU",
+      },
+      {
+        title: "Pro-rata allotment(Important)",
+        owner: "Hari Acharya",
+        link: "https://youtu.be/AdZA2cRsFvM",
+      },
+      {
+        title: "Pro-rata & Calls-in-arrears",
+        owner: "Hari Acharya",
+        link: "https://youtu.be/RoSyz98DyJA",
+      },
+      {
+        title: "Pro-rata",
+        owner: "Star institute",
+        link: "https://youtu.be/RXCQTRZOfxE",
       },
     ],
   },
@@ -259,4 +288,4 @@ sbtn.addEventListener("click", (e) => {
     getdata(e.target.innerText);
   }
 });
-console.log(Object.keys(subj[1]).length);
+
