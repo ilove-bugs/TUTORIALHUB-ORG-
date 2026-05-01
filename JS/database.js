@@ -1,8 +1,8 @@
 //array of calculus
 
-var meta = document.body.dataset.content;
+const meta = document.body.dataset.content;
 
-var subj = {
+const subj = {
   math: {
     Derivative: [
       {
@@ -278,6 +278,8 @@ let getdata = (chapname) => {
     chapters.appendChild(li);
   });
 };
+const firstchild=document.querySelector(".subj-btn").firstElementChild.innerText
+getdata(firstchild)
 
 sbtn.addEventListener("click", (e) => {
   // alert(e.target.innerText)
