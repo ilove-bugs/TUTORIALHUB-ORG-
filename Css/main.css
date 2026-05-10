@@ -35,7 +35,7 @@ background-color: rgb(39, 37, 37); */
   align-items: center;
 }
 .bgicon #bggg {
-  width: 30%;
+  width: 40%;
   max-width: 300px;
   filter: brightness(25%);
 }
@@ -45,11 +45,11 @@ nav a {
   padding: 5px;
 
   border-radius: 5px;
-  color: white;
+
   font-size: 13px;
 font-weight: 400;
-  border: 1px solid lightgrey;
-
+color: black;
+border: 1px solid black;
 }
 
 #upper nav {
@@ -62,9 +62,8 @@ overflow-x: auto;
  top: 0;
 z-index: 100;
   padding: 6px;
+  background-color: #ADADAD;
 
-
-  background-color: rgb(41, 41, 41);
 }
 /*  */
 .instructions {
@@ -74,17 +73,17 @@ z-index: 100;
   border-left: 3px solid purple;
 }
 .instructions header {
-  color: purple;
+font-weight: bold;
 }
 
 nav a:hover {
-  color: rgb(248, 14, 248);
+  color: #33006F;
 }
 
 .welcome {
   text-align: center;
   font-size: 2.5rem;
-  letter-spacing: 5px;
+  letter-spacing: 8px;
 }
 .welcome span {
   font-size: 8rem;
